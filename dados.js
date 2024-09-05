@@ -20,19 +20,19 @@ let dados = [
     {
         titulo: "Chico Landi",
         descricao: "Considerado um dos pioneiros do automobilismo brasileiro, Chico Landi foi o primeiro brasileiro a competir na Fórmula 1, em 1951. Apesar de não ter conquistado títulos mundiais, deixou um legado importante para o automobilismo nacional.",
-        titulos: "Vários títulos em competições nacionais e internacionais.",
+        titulos: "Os principais fatores que impediram o brasileiro a conquistar títulos na Fórmula 1 foram: Disputou apenas seis Grandes Prêmios, o que limitou suas chances de pontuar e brigar por um título mundial. Os carros brasileiros da época não eram tão competitivos quanto os europeus, o que dificultava a vida de Landi nas pistas. A falta de recursos financeiros impedia Landi de ter um carro competitivo e de disputar todas as corridas do campeonato.",
         link: "https://www.museudoautomobilismo.org.br/chico-landi/"
     },
     {
         titulo: "Rubens Barrichello",
         descricao: "Um dos pilotos brasileiros com mais corridas disputadas na Fórmula 1, Rubens Barrichello era conhecido por sua consistência e lealdade às equipes. Apesar de não ter conquistado o título mundial, alcançou diversos pódios e vitórias.",
-        titulos: "Vários pódios e vitórias na Fórmula 1, pilotando por equipes como Ferrari e Brawn GP.",
+        titulos: "11 vitórias, 68 pódios, 14 pole positions",
         link: "https://pt.wikipedia.org/wiki/Rubens_Barrichello"
     },
     {
         titulo: "Felipe Massa",
-        descricao: "Felipe Massa era conhecido por sua velocidade e habilidade de ultrapassagem. Apesar de ter sofrido um grave acidente em 2009, retornou às pistas e conquistou diversos pódios e vitórias.",
-        titulos: "Vários pódios e vitórias na Fórmula 1, pilotando principalmente pela Ferrari.",
+        descricao: "É um dos maiores pilotos brasileiros de Fórmula 1. Vice-campeão mundial em 2008, Massa foi protagonista de uma das finais mais controversas da história da categoria. Sua carreira, marcada pela lealdade e pela paixão, o tornou um ídolo para milhões de fãs ao redor do mundo.",
+        titulos: "Mesmo estando por bastante tempo na Fórmula 1, Felipe Massa não conquistou títulos mundiais nessa categoria, e alguns dos principais fatores foram:Temporada dramática de 2008: Disputou o campeonato ponto a ponto com Lewis Hamilton até a última corrida da temporada. No entanto, uma reviravolta no final da prova em Interlagos fez com que Hamilton se sagrasse campeão por apenas um ponto de diferença. Massa ainda contesta o resultado desta corrida, alegando que houve manipulações para favorecer o piloto inglês, fora a briga judicial com a FIA referente à batida de Nelsinho Piquet no GP de Singapura que o prejudicou na classificação do mesmo ano.Concorrência forte: Ao longo de sua carreira, Massa enfrentou uma concorrência fortíssima, com pilotos como Michael Schumacher, Fernando Alonso e Lewis Hamilton.Problemas de confiabilidade: Em algumas temporadas, Massa sofreu com problemas de confiabilidade em seus carros, o que o prejudicou na disputa pelo título.Acidentes: O piloto brasileiro também sofreu alguns acidentes graves ao longo de sua carreira, como o acidente em Hungaroring em 2009, que o deixou fora das pistas por um longo período.",
         link: "http://felipemassa.com.br/"
     }
 ];

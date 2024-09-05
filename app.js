@@ -1,1 +1,7 @@
-console.log(dados[0].descricao);
+console.log(dados);
+
+let section = document.getElementById('atletas')
+
+// section.innerHTML = `
+
+// `
