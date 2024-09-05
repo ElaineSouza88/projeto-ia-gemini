@@ -8,13 +8,14 @@
 }
 
 body {
-    background: url(imagens/fundo-pista.jpg) center no-repeat fixed;
+    /* background: url(imagens/fundo-pista.jpg) center no-repeat fixed; */
     background: cover;
     background-color: lightgray;
     height: 100%vh;
-    width: 100% vw;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 header {
@@ -35,10 +36,10 @@ main {
     margin: 10px;
     padding: 10px;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
-input {
+section input {
     font-size: 25px;
     border-radius: 15px;
     padding: 10px;
@@ -58,12 +59,18 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: rgb(0, 110, 255);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+}
+
 section#pesquisa {
     padding: 5px;
 }
 
 div#resultado-pesquisa {
-    background-color: rgba(255, 255, 255, 0.747);
+    flex-flow: row;
+    background-color: rgba(255, 255, 255, 0.623);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 10px;
@@ -73,7 +80,7 @@ div#resultado-pesquisa {
 }
 
 div#resultado-pesquisa > h2 {
-    padding: 15px 0px;
+    padding: 10px 0px;
 }
 
 ul {
@@ -100,9 +107,34 @@ footer > p {
 }
 
 @media (max-width:790px) {
-    header, h1, h2 {
+    header, input {
+        font-size: 0.6em;
+        text-align: center;
+        width: 25rem;
+    }
+    h1, h2, h3 {
+        font-size: 1.2em;
+        letter-spacing: 0.2em;
+        text-align: justify;
+    }
+    p, ul, ol {
+        font-size: 1em;
+        text-align: justify;
+    }
+}
+@media (max-width:580px) {
+    header, input {
+        font-size: 0.5em;
+        text-align: center;
+        width: 20rem;
+    }
+    h1, h2, h3 {
         font-size: 1em;
         letter-spacing: 0.2em;
+        text-align: justify;
+    }
+    p, ul, ol {
+        font-size: 0.8em;
         text-align: justify;
     }
 }
