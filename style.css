@@ -17,7 +17,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 header {
     margin: 300px 10px 0px;
     text-align: center;
@@ -64,11 +63,13 @@ button:hover {
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
 }
 
+
 section#pesquisa {
     padding: 5px;
 }
 
 div#resultado-pesquisa {
+    width: 60rem;
     flex-flow: row;
     background-color: rgba(255, 255, 255, 0.623);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
@@ -93,19 +94,22 @@ ol {
 }
 
 footer {
-    padding: 5px;
-    text-align: center;
-    padding: 90px 0px 0px;
-    
+    text-align: center;  
+    width: 100%;
+    margin: 5px 5px 0px;
+    padding: 5px 0px;
 }
 
 footer > p {
     font-size: 1.5em;
     padding: 5px;
+    margin-top: 5px;
     color: white;
     background-color:#003399;
 }
 
+
+/* Responsividade para tablets */
 @media (max-width:790px) {
     header, input {
         font-size: 0.6em;
@@ -122,7 +126,9 @@ footer > p {
         text-align: justify;
     }
 }
-@media (max-width:580px) {
+
+/* Responsividade para dispositivos móveis */
+@media (max-width:480px) {
     header, input {
         font-size: 0.5em;
         text-align: center;
